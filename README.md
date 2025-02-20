@@ -1,4 +1,4 @@
-you'll build a basic application that alerts students about upcoming assignment deadlines. To structure this app, you'll create a shell script that automates the creation of the necessary directories and files.
+i have  build a basic application that alerts students about upcoming assignment deadlines. To structure this app, you'll create a shell script that automates the creation of the necessary directories and files.
 
 
 Task Overview:
