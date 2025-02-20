@@ -1,6 +1,4 @@
-#!/bin/bash 
 #!/bin/bash
-
 # Prompt user for their name
 read -p "Enter your name: " user_name
 
@@ -62,12 +60,7 @@ Alice, Math Homework, submitted
 Bob, Science Project, not submitted
 Denis, History Essay, submitted
 David, Programming Lab, not submitted
-kina, Physics Report, not submitted
-Frank, Chemistry Assignment, submitted
-Grace, Biology Worksheet, not submitted
-Makire, English Presentation, submitted
-Iiankagame, epidemiology Case Study, not submitted
-J0shua, behavioursceince, submitted
+bebe,shellnavigation,submitted
 EOF
 cat << 'EOF' > $main_dir/config/config.env
 
@@ -85,4 +78,5 @@ EOF
 #Make all required files executable
 chmod +x $main_dir/startup.sh $main_dir/app/reminder.sh $main_dir/modules/functions.sh
 #success message
-echo "hello $user_name Reminder setup complete.change directory to the $main_dir then  Run ./startup.h to get your reminder."
+echo "$user_name environment created successfuly run startup.sh to get your reminder"
+
